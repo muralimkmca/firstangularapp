@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { booklist } from 'src/Model/booklist';
 import { BooklistService } from 'src/services/booklist.service';
 
+
 @Component({
   selector: 'my-root',
   templateUrl: './app.component.html',
@@ -23,7 +24,7 @@ export class AppComponent {
   constructor(private booklist : BooklistService){}
 
   ngOnInit(): void {
-    this.getallBooks();
+    //this.getallBooks();
   }
 
   getallBooks() {
