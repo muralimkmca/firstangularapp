@@ -10,12 +10,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { AddbookComponent } from './addbook/addbook.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    BooklistComponent
+    BooklistComponent,
+    AddbookComponent
   ],
   imports: [
     BrowserModule,
